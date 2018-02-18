@@ -42,4 +42,9 @@ topic "Creating chromedriver export scripts"
 mkdir -p $BUILD_DIR/.profile.d
 echo "export PATH=\$PATH:\$HOME/.chromedriver/bin" >> $BUILD_DIR/.profile.d/chromedriver.sh
 echo "processes running: $(ps -ef | grep -i chrome)"
+echo "build dir: $BUILD_DIR"
+echo "home dir: $HOME"
+
+which chromedriver
+
 indent "Created"
