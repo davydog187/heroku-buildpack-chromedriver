@@ -45,6 +45,5 @@ echo "processes running: $(ps -ef | grep -i chrome)"
 echo "build dir: $BUILD_DIR"
 echo "home dir: $HOME"
 
-which chromedriver
 
 indent "Created"
